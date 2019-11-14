@@ -1,3 +1,5 @@
+if(typeof window !== "undefined") {
+
 window.eve = require('eve')
 
 // Copyright (c) 2017 Adobe Systems Incorporated. All rights reserved.
@@ -8143,3 +8145,4 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
 });
 
 module.exports = Snap
+}
